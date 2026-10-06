@@ -1,14 +1,16 @@
 import GameCard from "../components/GameCard"
 import imagem_jogo from "../assets/imagem.jpg"
 import imagem_jogo2 from "../assets/imagem2.jpg"
+import imagem_jogo3 from "../assets/imagem3.jpg"
+import imagem_jogo4 from "../assets/imagem4.jpg"
 
 const Home = () => {
 
     const games=[
         {id:1,titulo:"Jogo-01", preco:"R$200,00", imagem:imagem_jogo},
         {id:2,titulo:"Jogo-02", preco:"R$300,00", imagem:imagem_jogo2},
-        {id:3,titulo:"Jogo-03", preco:"R$400,00", imagem:imagem_jogo},
-        {id:4,titulo:"Jogo-04", preco:"R$500,00", imagem:imagem_jogo2}
+        {id:3,titulo:"Jogo-03", preco:"R$400,00", imagem:imagem_jogo3},
+        {id:4,titulo:"Jogo-04", preco:"R$500,00", imagem:imagem_jogo4}
     ];
     return (
         <main className="px-[5%] mt-10 mb-16 grow">
